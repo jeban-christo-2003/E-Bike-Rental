@@ -1,13 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
 
-/*
-  Home component with animated, interactive vehicle cards.
-  - Reveal on scroll via IntersectionObserver
-  - Staggered reveal using inline transitionDelay
-  - Touch/press interactions: active scale, button ripple-like highlight
-  - Unique per-card gradients generated from ID/color palette
-*/
 
 const colorPalettes = [
   ["from-indigo-400", "to-pink-400"],
@@ -94,7 +87,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen w-full flex flex-col items-center bg-gradient-to-b from-indigo-50 via-white to-sky-50 relative overflow-x-hidden">
-      {/* Decorative animated blobs */}
+     
       <div
         ref={blobA}
         className="pointer-events-none absolute -top-40 -left-36 w-96 h-96 rounded-full opacity-80 filter blur-3xl animate-blob"
@@ -119,7 +112,7 @@ export default function Home() {
             Explore Vehicles
           </h1>
           <p className="mt-1 text-sm text-gray-600">
-            Beautifully animated listings — tap, scroll and interact.
+       Voltride gives you comfort not a Guilt!❤️
           </p>
         </div>
 
