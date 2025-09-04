@@ -1,4 +1,4 @@
-package com.BikeRental.VoltRide.config;
+package com.BikeRental.VoltRide.Config;
 
 import com.BikeRental.VoltRide.filter.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
