@@ -1,0 +1,9 @@
+com\BikeRental\VoltRide\config\CorsConfig.class
+com\BikeRental\VoltRide\Controller\BikeController.class
+com\BikeRental\VoltRide\model\Model.class
+com\BikeRental\VoltRide\Service\BikeService.class
+com\BikeRental\VoltRide\JPARepository.class
+com\BikeRental\VoltRide\config\CorsConfig$1.class
+com\BikeRental\VoltRide\config\SecurityConfig.class
+com\BikeRental\VoltRide\model\Vehicle.class
+com\BikeRental\VoltRide\VoltRideApplication.class
